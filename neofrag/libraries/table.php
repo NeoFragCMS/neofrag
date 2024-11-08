@@ -101,7 +101,7 @@ class Table extends Library
 							->js('table');
 
 		$output = '';
-		$search = trim(post('search'));
+		$search = trim((string)post('search'));
 
 		if (post('table_id'))
 		{

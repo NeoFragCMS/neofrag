@@ -6,6 +6,7 @@
 
 namespace NF\NeoFrag;
 
+#[\AllowDynamicProperties]
 class Driver_Query
 {
 	public $driver;
