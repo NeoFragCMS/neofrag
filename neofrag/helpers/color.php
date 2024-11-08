@@ -7,6 +7,7 @@
 function get_colors($name = NULL, $convert = TRUE)
 {
 	$colors = [
+		'default'	=> '#007bff',
 		'primary'   => '#007bff',
 		'secondary' => '#6c757d',
 		'success'   => '#28a745',
