@@ -1,7 +1,9 @@
 /.gitignore
+.gitignore
 /backups
 /cache
 /logs
+/config
 /upload
 *.map
 *.scssc
