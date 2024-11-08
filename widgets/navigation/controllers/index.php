@@ -96,7 +96,7 @@ class Index extends Controller_Widget
 		}
 
 		usort($actives, function($a, $b){
-			return strlen($a) < strlen($b);
+			return strlen($b) <=> strlen($a);
 		});
 
 		foreach ($settings['links'] as $link)

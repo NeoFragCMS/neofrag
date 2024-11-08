@@ -6,6 +6,7 @@
 
 namespace NF\NeoFrag;
 
+#[\AllowDynamicProperties]
 class Field
 {
 	protected $_fields = [];

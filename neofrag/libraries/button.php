@@ -53,7 +53,7 @@ class Button extends Label
 
 	public function __invoke()
 	{
-		call_user_func_array('parent::__invoke', func_get_args());
+		call_user_func_array('NF\\NeoFrag\\Libraries\\Label::__invoke', func_get_args());
 
 		$this->_template[] = function(&$content, &$attrs, &$tag){
 			foreach ($this->_data as $key => $value)
